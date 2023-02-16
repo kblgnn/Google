@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  list-style-type: none;
+  font: 13px/27px Arial, sans-serif;
+}
+/* HEADER GRUBU  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+
+  font-size: small;
+}
+.header1 li a:hover {
+  opacity: 1;
+  border-bottom: 1px solid black;
+  color: rgb(114, 114, 114);
+  text-decoration: none;
+}
+.header2 li a:hover {
+  opacity: 1;
+  border-bottom: 1px solid black;
+  color: rgb(114, 114, 114);
+}
+
+.header1 {
+  display: flex;
+}
+.header1 li a {
+  display: flex;
+  padding-left: 10px;
+  color: rgb(114, 114, 114);
+}
+
+.header2 {
+  display: flex;
+}
+
+.header2 li {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+}
+
+.header2 li a {
+  color: rgb(114, 114, 114);
+}
+.appic {
+  opacity: 0.6;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  font-weight: bolder;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  width: 70px;
+}
+button:hover {
+  cursor: pointer;
+}
+/* ### MAİN GRUBU ### */
+.gls {
+  width: 40px;
+  padding-left: 10px;
+}
+.gls:hover {
+  cursor: pointer;
+}
+.bar {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-color: rgb(242, 238, 238);
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.gg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.key {
+  margin-right: 5px;
+}
+.key:hover {
+  cursor: pointer;
+}
+.mic {
+  width: 10px;
+  padding-left: 5px;
+  flex-grow: 0.09;
+  padding-right: 5px;
+}
+.mic:hover {
+  cursor: pointer;
+}
+.text {
+  flex-grow: 1.5;
+  border: none;
+  outline: none;
+}
+.button2 {
+  padding-top: 30px;
+}
+.search_button {
+  height: 36px;
+  min-width: 120px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-weight: lighter;
+}
+.search_button:hover {
+  cursor: pointer;
+}
+.feeling_button {
+  height: 36px;
+  min-width: 120px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-weight: lighter;
+}
+.feeling_button:hover {
+  cursor: pointer;
+}
+
+.turk {
+  padding-top: 20px;
+}
+
+/* ### FOOTER GRUBU ###  */
+.son {
+  width: 100%;
+
+  /* margin-top: 223px; */
+  color: #5f6368;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+}
+.try {
+  display: flex;
+  padding-left: 20px;
+  width: 100%;
+  height: 33px;
+  background-color: rgb(242, 242, 242);
+}
+.bus {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 35px;
+  background-color: rgb(242, 242, 242);
+}
+.son1 a {
+  padding-left: 15px;
+  color: #5f6368;
+}
+.son2 a {
+  padding-right: 15px;
+  color: #5f6368;
+}
